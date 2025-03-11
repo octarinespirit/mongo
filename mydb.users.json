@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "67d0010ce7e7def660e13d4d"
+  },
+  "username": "jouni",
+  "password": "hei101",
+  "favorite_food": "pasta",
+  "hobbies": [
+    "books",
+    "cars",
+    "skiing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67d00189ffbccdae5e1b32ee"
+  },
+  "username": "janne",
+  "password": "hei101",
+  "favorite_food": "pasta",
+  "hobbies": [
+    "books",
+    "cars",
+    "skiing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67d001c6df468ce5258814fa"
+  },
+  "username": "janne",
+  "password": "hei101",
+  "favorite_food": "pasta",
+  "hobbies": [
+    "books",
+    "cars",
+    "skiing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67d00262678486a98d055705"
+  },
+  "username": "janne",
+  "password": "hei101",
+  "favorite_food": "pasta",
+  "hobbies": [
+    "books",
+    "cars",
+    "skiing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67d0035a74855d909c2978eb"
+  },
+  "username": "janne",
+  "password": "hei101",
+  "favorite_food": "pasta",
+  "hobbies": [
+    "books",
+    "cars",
+    "skiing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67d0088a7c7a9be1f7d73e6c"
+  },
+  "username": "janne",
+  "password": "hei101",
+  "favorite_food": "pasta",
+  "hobbies": [
+    "books",
+    "cars",
+    "skiing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67d008a7799a88ae373ca4f7"
+  },
+  "username": "joonas",
+  "password": "123",
+  "favorite_nmbr": "007",
+  "hobbies": [
+    "bowling",
+    "nature",
+    "gym"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67d008a7799a88ae373ca4f8"
+  },
+  "username": "janne",
+  "password": "hei101",
+  "favorite_food": "pasta",
+  "hobbies": [
+    "books",
+    "cars",
+    "skiing"
+  ]
+}]
