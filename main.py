@@ -1,6 +1,7 @@
 """For testing the pymongo database"""
 from pymongo import MongoClient
 
+# Setting up the database
 client = MongoClient()
 db = client.mydb
 
@@ -25,17 +26,24 @@ def delete(item_to_delete: dict):
 user1 = {"username": "joonas", "password": "123", "favorite_nmbr": "007", "hobbies": ["bowling", "nature", "gym"]}
 user2 = {"username": "janne", "password": "hei101", "favorite_food": "pasta" , "hobbies": ["books", "cars", "skiing"]}
 
+# Add new user records
 new_users =[user1, user2]
 insert(new_users)
 
+# Update records
 to_update = {"username": "janne"}
 update_to = {"$set": {"username": "jouni"}}
 update(to_update, update_to)
 
+# Delete records
 to_delete = {"username": "joonas"}
 delete(to_delete)
 
+# Counting
 find = {"username": "janne"}
-
 print("User records found: ", users.count_documents({}))
 print("Users with the name Janne found: ", users.count_documents(find))
+
+# Indexing
+print(db.users.create_index("username"))
+print(users.find({"username": "janne"}))
